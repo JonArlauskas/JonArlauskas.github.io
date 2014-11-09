@@ -1,7 +1,36 @@
-body {
-	background-color: #C6C5C5;
+body{
+	background-color: #000000;
 }
 
-li.red-text {
-	color: #AA3939;
+h1.name{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	line-height: 20pt;
+	color: #1947D1;
+}
+
+li.name{
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	line-height: 20pt;
+	color: #B5B1BA;
+}
+
+#page-wrap {
+	width:1000px; 
+	margin: 15px auto;
+	position: relative;
+}
+
+#sidebar {
+	width: 200px; 
+	position: fixed;
+	margin-left: 1000px;
+}
+
+#main {
+width:390px; 
+float:left;
+font-family: 'Droid Sans', sans-serif;
+color: white;
 }
