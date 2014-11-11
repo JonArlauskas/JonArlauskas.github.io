@@ -1,19 +1,19 @@
 body{
-	background-color: #000000;
+	background-color: white;
 }
 
 h1.name{
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: bold;
 	line-height: 20pt;
-	color: #1947D1;
+	color: blue;
 }
 
 li.name{
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: bold;
 	line-height: 20pt;
-	color: #B5B1BA;
+	color: blue;
 }
 
 #page-wrap {
@@ -32,5 +32,5 @@ li.name{
 width:390px; 
 float:left;
 font-family: 'Droid Sans', sans-serif;
-color: white;
+color: blue;
 }
