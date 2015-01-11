@@ -2,35 +2,48 @@ body{
 	background-color: white;
 }
 
-h1.name{
-	font-family: 'Droid Sans', sans-serif;
-	font-weight: bold;
-	line-height: 20pt;
-	color: blue;
+
+div.wrapper1{
+	width: 100%;
+	background : white;
+}
+div.wrapper2{
+	width: 100%;
+	background : #61CDF5;
+}
+div.wrapper3{
+	width: 100%;
+	background : #666;
 }
 
-li.name{
-	font-family: 'Droid Sans', sans-serif;
-	font-weight: bold;
-	line-height: 20pt;
-	color: blue;
-}
 
-#page-wrap {
-	width:1000px; 
-	margin: 15px auto;
+
+
+div.container1{				
+	margin-right: 0;
+	margin-left: 0;
 	position: relative;
+	height: 100px;
+
 }
 
-#sidebar {
-	width: 200px; 
-	position: fixed;
-	margin-left: 1000px;
+div.container2{             
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	font-family: "helvetica neue", Helvetica, sans-serif;
+	color: white;
+	padding-top: 150px;
 }
 
-#main {
-width:390px; 
-float:left;
-font-family: 'Droid Sans', sans-serif;
-color: blue;
+div.container3{             
+	margin: 0 auto;
+	width: 100%;
+	height: 400px;
+	padding-top: 75px;
+	font-family: "helvetica neue", Helvetica, sans-serif;
+	color: white;
 }
+
+
+
